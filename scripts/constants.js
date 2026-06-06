@@ -2,7 +2,7 @@
  * Shared constants and modifier metadata for SRP Bonus Breakdown.
  */
 
-export const MODULE_ID = "srp-dnd-bonus-breakdown";
+export const MODULE_ID = "srp-bonus-breakdown-5e";
 
 /** Key used to stash the captured breakdown onto a roll's `options` so it persists into the chat message. */
 export const OPTIONS_KEY = "srpdBreakdown";
