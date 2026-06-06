@@ -53,6 +53,10 @@
   content: " ★";
 }
 .srpbb .srpbb-cat-magic .srpbb-pill-value { color: var(--dnd5e-color-purple, #7b4fab); }
+.srpbb .srpbb-cat-flanking .srpbb-pill-value { color: var(--dnd5e-color-green, #3a7a3a); }
+.srpbb .srpbb-cat-flanking .srpbb-pill-label::before {
+  content: "⚔ ";
+}
 .srpbb .srpbb-cat-damage .srpbb-pill-value { color: var(--dnd5e-color-maroon, #6c0000); }
 
 .srpbb .srpbb-formula {
