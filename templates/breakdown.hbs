@@ -1,0 +1,15 @@
+<div class="{{moduleId}} srpbb">
+  <div class="srpbb-pills">
+    {{#each pills}}
+    <span class="srpbb-pill srpbb-cat-{{this.category}}" {{#if this.title}}data-tooltip="{{this.title}}"{{/if}}>
+      {{#if this.img}}<img class="srpbb-pill-img" src="{{this.img}}" alt="" />{{/if}}
+      <span class="srpbb-pill-value {{#if this.negative}}negative{{/if}}">{{this.value}}</span>
+      <span class="srpbb-pill-label">{{this.label}}</span>
+    </span>
+    {{/each}}
+  </div>
+
+  {{#if showFormula}}
+  <div class="srpbb-formula"><code>{{formula}}</code></div>
+  {{/if}}
+</div>

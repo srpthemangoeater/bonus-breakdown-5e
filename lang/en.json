@@ -1,0 +1,56 @@
+{
+  "SRPBB.DieRoll": "d20 Roll",
+  "SRPBB.Total": "Total",
+
+  "SRPBB.Header.Check": "{ability} Check",
+  "SRPBB.Header.Save": "{ability} Save",
+  "SRPBB.Header.Skill": "{skill} Check",
+  "SRPBB.Header.Tool": "{tool} Check",
+
+  "SRPBB.Mod.Ability": "{ability} Mod",
+  "SRPBB.Mod.AbilityGeneric": "Ability Mod",
+  "SRPBB.Mod.Proficiency": "Prof Bonus",
+  "SRPBB.Mod.Expertise": "Expertise",
+  "SRPBB.Mod.HalfProf": "Half Prof",
+  "SRPBB.Mod.Situational": "Situational",
+  "SRPBB.Mod.Exhaustion": "Exhaustion",
+  "SRPBB.Mod.Cover": "Cover",
+  "SRPBB.Mod.GlobalCheck": "Check Bonus",
+  "SRPBB.Mod.GlobalSave": "Save Bonus",
+  "SRPBB.Mod.GlobalSkill": "Skill Bonus",
+  "SRPBB.Mod.AbilityCheck": "{ability} Check",
+  "SRPBB.Mod.AbilitySave": "{ability} Save",
+  "SRPBB.Mod.SkillBonus": "{skill} Bonus",
+  "SRPBB.Mod.ItemBonus": "Item Bonus",
+  "SRPBB.Mod.MagicWeapon": "Magic Weapon",
+  "SRPBB.Mod.MagicAmmo": "Magic Ammo",
+  "SRPBB.Mod.AttackBonus": "Attack Bonus",
+  "SRPBB.Mod.DamageBonus": "Damage Bonus",
+  "SRPBB.Mod.Damage": "Damage",
+
+  "SRPBB.Settings.EnableAbility.Name": "Break Down Ability Checks",
+  "SRPBB.Settings.EnableAbility.Hint": "Show the modifier breakdown for ability checks.",
+  "SRPBB.Settings.EnableSave.Name": "Break Down Saving Throws",
+  "SRPBB.Settings.EnableSave.Hint": "Show the modifier breakdown for saving throws.",
+  "SRPBB.Settings.EnableSkill.Name": "Break Down Skill & Tool Checks",
+  "SRPBB.Settings.EnableSkill.Hint": "Show the modifier breakdown for skill and tool checks.",
+  "SRPBB.Settings.EnableAttack.Name": "Break Down Attack Rolls",
+  "SRPBB.Settings.EnableAttack.Hint": "Show the modifier breakdown for attack rolls.",
+  "SRPBB.Settings.EnableDamage.Name": "Break Down Damage Rolls",
+  "SRPBB.Settings.EnableDamage.Hint": "Show the damage composition (dice, ability, magic, bonuses).",
+
+  "SRPBB.Settings.Visibility.Name": "Breakdown Visibility",
+  "SRPBB.Settings.Visibility.Hint": "Who is allowed to see the breakdown section on a chat card.",
+  "SRPBB.Settings.Visibility.Everyone": "Everyone",
+  "SRPBB.Settings.Visibility.Owner": "Roll owner & GM",
+  "SRPBB.Settings.Visibility.GM": "GM only",
+
+  "SRPBB.Settings.ShowSources.Name": "Identify Active Effect Sources",
+  "SRPBB.Settings.ShowSources.Hint": "Trace bonus modifiers back to the Active Effects (items, feats, spells) that produced them.",
+
+  "SRPBB.Settings.ShowFormula.Name": "Show Roll Formula (Debug)",
+  "SRPBB.Settings.ShowFormula.Hint": "Display the underlying roll formula at the bottom of each breakdown.",
+
+  "SRPBB.Settings.ShowSourcePaths.Name": "Show Data Paths (Debug)",
+  "SRPBB.Settings.ShowSourcePaths.Hint": "Display the system data path each bonus modifier reads from."
+}
