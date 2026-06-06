@@ -315,6 +315,8 @@ function describeToken(token, ctx) {
     case "situational":
     case "extraBonus":
       return { label: t.localize("SRPBB.Mod.Situational"), category: CATEGORY.situational };
+    case "flanking":
+      return { label: t.localize("SRPBB.Mod.Flanking"), category: CATEGORY.flanking };
     case "exhaustion":
       return { label: t.localize("SRPBB.Mod.Exhaustion"), category: CATEGORY.exhaustion };
     case "cover":

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Mario/AppData/Local/FoundryVTT/Data/systems/**)",
+      "Read(//c/Users/Mario/AppData/Local/FoundryVTT/Data/systems/dnd5e/**)",
+      "Bash(node -e \"const j=require\\('./system.json'\\); console.log\\('version:',j.version\\); console.log\\('compat:',JSON.stringify\\(j.compatibility\\)\\);\")",
+      "Bash(awk 'NR>=78735 && NR<=78970 && \\(/fromConfig|d20|_formula|parts|formula|constructor|static/\\)' dnd5e.mjs)",
+      "Bash(awk '/class Proficiency/{f=1} f&&/get term/{print NR\": \"; c=1} f&&c{print; if\\(/^\\\\s*}/ && p++>0\\) exit}' dnd5e.mjs)"
+    ]
+  }
+}

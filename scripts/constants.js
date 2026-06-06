@@ -40,6 +40,7 @@ export const CATEGORY = {
   exhaustion: "exhaustion",
   cover: "cover",
   magic: "magic",
+  flanking: "flanking",
   damage: "damage",
   other: "other"
 };
