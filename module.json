@@ -41,5 +41,8 @@
     "srp-bonus-breakdown-5e": {
       "default-permission": "OBSERVER"
     }
-  }
+  },
+  "url": "https://github.com/srpthemangoeater/bonus-breakdown-5e",
+  "manifest": "https://raw.githubusercontent.com/srpthemangoeater/bonus-breakdown-5e/main/module.json",
+  "download": "https://github.com/srpthemangoeater/bonus-breakdown-5e/archive/refs/heads/main.zip"
 }
